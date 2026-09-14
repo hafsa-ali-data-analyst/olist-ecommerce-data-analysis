@@ -27,9 +27,11 @@ The analysis focuses on questions such as:
 - **SQLite Online:** Used as the SQL analysis environment because it allowed the cleaned CSV files to be imported and analyzed quickly without additional database setup.
 - **Power BI:** Used to create the final interactive dashboard and communicate the most important findings.
 
+## AI-Assisted Development
+ChatGPT was used selectively to assist with complex Python/Pandas coding and debugging during the data preparation process. All generated suggestions were reviewed, tested and adapted as part of the final implementation.  
+
 ## Data Cleaning & Preparation
 The original Olist dataset contains multiple related CSV files covering customers, orders, order items, products, sellers, payments, reviews, geolocation and category translation.
-
 Python and Pandas were used to:
 - Inspect datasets and missing values.
 - Identify and remove duplicate records where appropriate.
@@ -144,16 +146,24 @@ The final Power BI dashboard focuses on the most important findings rather than 
 - Customer State
 
 ## Dashboard Preview
-![Olist_Ecommerce_Marketplace_Insights_Dashboard](Olist_Ecommerce_Marketplace_Insights_Dashboard.png)
+
+<p align="center">
+  <img src="dashboard/Olist_Ecommerce_Marketplace_Insights_Dashboard.png" alt="Olist Ecommerce Marketplace Insights Dashboard">
+</p>
 
 The dashboard combines sales, customer, product, satisfaction and delivery metrics into a single business-focused view.
 
 ## Key Business Insights
 **1. Customer Retention:** Approximately **3%** of unique customers made more than one delivered purchase, indicating a significant opportunity to improve repeat purchasing.
+
 **2. Sales Growth:** Monthly sales and delivered order activity increased substantially, while average sales per delivered order remained relatively stable.
+
 **3. Category Performance:** Category performance differed by metric. Bed, Bath & Table led purchase volume, Health & Beauty led sales value, and Computers & Accessories had the highest average item price.
+
 **4. Customer Satisfaction:** The overall review score was **4.09 / 5**, indicating generally positive customer satisfaction.
+
 **5. Delivery Performance:** Overall on-time delivery was strong at **93.22%**, but certain periods experienced significantly higher delay rates.
+
 **6. Delivery & Reviews:** Delayed orders had an average review score of **2.27**, compared with **4.29** for on-time orders, highlighting delivery reliability as an important customer experience factor.
 
 ## Business Recommendations
@@ -191,3 +201,22 @@ Business Insights
 Power BI Dashboard
         ↓
 Business Recommendations
+```
+
+## Clone This Repository
+
+To clone the repository locally, run:
+
+```bash
+git clone https://github.com/hafsa-ali-data-analyst/olist-ecommerce-data-analysis.git
+```
+## Conclusion
+This analysis shows that Olist had strong marketplace activity and generally positive customer satisfaction, while also highlighting opportunities to improve customer retention and delivery reliability.
+
+The approximately **3% repeat customer rate** indicates potential to strengthen customer retention, while the difference in review scores between on-time and delayed orders highlights the importance of reliable delivery.
+
+By combining Python for data preparation, SQL for business analysis, and Power BI for visualization, the project demonstrates how raw e-commerce data can be transformed into actionable business insights and recommendations.
+
+## Skills Demonstrated
+
+**Python | Pandas | SQL | SQLite | Power BI | Data Cleaning | Data Analysis | Data Visualization | Business Intelligence | KPI Development | Customer Analytics | Sales Analysis | Operational Analysis | Business Recommendations**
