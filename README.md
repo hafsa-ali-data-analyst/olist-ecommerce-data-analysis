@@ -148,7 +148,7 @@ The final Power BI dashboard focuses on the most important findings rather than 
 ## Dashboard Preview
 
 <p align="center">
-  <img src="dashboard/Olist_Ecommerce_Marketplace_Insights_Dashboard.png" alt="Olist Ecommerce Marketplace Insights Dashboard">
+  <img src="Olist_Ecommerce_Marketplace_Insights_Dashboard.png" alt="Olist Ecommerce Marketplace Insights Dashboard">
 </p>
 
 The dashboard combines sales, customer, product, satisfaction and delivery metrics into a single business-focused view.
