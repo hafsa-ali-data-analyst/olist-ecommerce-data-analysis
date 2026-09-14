@@ -53,8 +53,11 @@ Python and Pandas were used to:
 
 ## Dataset Selection
 Not every cleaned dataset was required for the final Power BI model.
+
 The **geolocation dataset was excluded from the final model** because it was not required for the selected dashboard insights and was significantly larger than the other datasets. Excluding it reduced model size without affecting the dashboard analysis.
+
 The **seller dataset was retained in the cleaned project data** because seller-level analysis was explored during the SQL stage, although it was not required for the final dashboard.
+
 Unused columns were also removed from the Power BI model where appropriate to reduce model size while preserving the data required for the dashboard.
 This keeps the final model focused on the business questions rather than loading every available field.
 
@@ -85,13 +88,13 @@ Monthly sales and delivered order activity increased substantially over the anal
 Payment activity was analyzed by payment method and total payment value.
 **Credit card** was the most frequently recorded payment method, with **76,795 payment records** and also represented the highest total payment value.
 
-## Customer Satisfaction
+### Customer Satisfaction
 Customer reviews were analyzed to understand overall satisfaction and review patterns.
 - **Average review score: 4.09 / 5**
 - 5-star reviews represented the largest share of recorded reviews.
 - Review scores were also analyzed over time to identify periods of stronger or weaker satisfaction.
 
-## Delivery Performance
+### Delivery Performance
 Delivery performance was evaluated by comparing actual delivery dates with estimated delivery dates.
 
 Among qualifying delivered orders:
@@ -107,13 +110,13 @@ The highest significant monthly delay rates included:
 - **March 2018: 18.96%**
 March 2018 recorded **1,328 delayed orders**.
 
-## Delivery & Customer Satisfaction
+### Delivery & Customer Satisfaction
 A strong association was identified between delivery performance and customer review scores.
 - On-time orders: **4.29 / 5 average review**
 - Delayed orders: **2.27 / 5 average review**
 This indicates that delayed deliveries were strongly associated with lower customer satisfaction. However, delivery performance is not necessarily the only factor influencing review scores.
 
-## Geographic Delivery Analysis
+### Geographic Delivery Analysis
 Delivery performance varied across customer states. States such as **AL, MA, SE, PI, and CE** recorded relatively high delay percentages, while high-volume states such as **SP and RJ** accounted for a larger number of delayed orders.
 Therefore, both **delay percentage and absolute delay volume** should be considered when identifying operational priorities.
 
@@ -141,7 +144,7 @@ The final Power BI dashboard focuses on the most important findings rather than 
 - Customer State
 
 ## Dashboard Preview
-![Olist_Ecommerce_Marketplace_Insights_Dashboard](dashboard/Olist_Ecommerce_Marketplace_Insights_Dashboard.png)
+![Olist_Ecommerce_Marketplace_Insights_Dashboard](Olist_Ecommerce_Marketplace_Insights_Dashboard.png)
 
 The dashboard combines sales, customer, product, satisfaction and delivery metrics into a single business-focused view.
 
